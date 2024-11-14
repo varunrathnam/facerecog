@@ -1,0 +1,13 @@
+train: /Users/kaytee/Documents/BroCodes/VandalismDetection/Combined Dataset -Spitting - Graffiti-/train/images
+val: /Users/kaytee/Documents/BroCodes/VandalismDetection/Combined Dataset -Spitting - Graffiti-/valid/images
+test: /Users/kaytee/Documents/BroCodes/VandalismDetection/Combined Dataset -Spitting - Graffiti-/test/images
+
+nc: 3
+names: ['Spitting', 'Spitting', 'Vandalism']
+
+roboflow:
+  workspace: hruts-workspace
+  project: combined-dataset-spitting-graffiti
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hruts-workspace/combined-dataset-spitting-graffiti/dataset/2
